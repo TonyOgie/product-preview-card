@@ -86,7 +86,7 @@ span{
     border: 10px solid brown;
 }
 
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 768px)
 {
     .mobile{
         display: none;
@@ -106,15 +106,15 @@ span{
     .mobile{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        width: 75%;
-        height: 75%;
+        width: 100%;
+        height: 100%;
     }
     #content{
         border-radius: 0;
         /*padding-right: 0;
         height: 300px;*/
     }
-    /*#desktop{
+    h1#desktop{
         display: none;
-    }*/
+    }
 }
