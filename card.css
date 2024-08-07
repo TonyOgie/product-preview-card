@@ -120,4 +120,7 @@ span{
     h1#desktop{
         display: none;
     }
+    #last{
+        padding-left: 75px;
+    }
 }
