@@ -10,8 +10,8 @@ body{
     margin-top: 100px;
 }
 
-img{
- width: 250px;
+.desktop{
+ width: 17.36%;
  height: 420px;
  border-top-left-radius: 10px;
  border-bottom-left-radius: 10px;   
@@ -85,9 +85,36 @@ span{
     background-color: brown;
     border: 10px solid brown;
 }
-/*Style for mobile device*/
-@media screen and (min-width: 375px) and (max-width: 767px) {
-    .body{
-        display: block;
+
+@media screen and (min-width: 1024px)
+{
+    .mobile{
+        display: none;
     }
+}
+/*Style for mobile device*/
+ @media screen and (min-width: 375px) and (max-width: 767px) {
+    .body{
+        flex-direction: column;
+        /*margin-left: 50px;
+        width: 75%;
+        height: 500px;*/
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 75%;
+        height: 75%;
+    }
+    #content{
+        border-radius: 0;
+        /*padding-right: 0;
+        height: 300px;*/
+    }
+    /*#desktop{
+        display: none;
+    }*/
 }
