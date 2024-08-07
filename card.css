@@ -91,15 +91,15 @@ span{
     .mobile{
         display: none;
     }
+    h1#mobile{
+        display: none;
+    }
 }
 /*Style for mobile device*/
  @media screen and (min-width: 375px) and (max-width: 767px) {
     .body{
         flex-direction: column;
         margin: 10px;
-        /*margin-left: 50px;
-        width: 75%;
-        height: 500px;*/
     }
     .desktop{
         display: none;
